@@ -1,0 +1,29 @@
+@use '../util' as *;
+
+.card {
+    background-color: var(--card-background);
+    max-width: rem(320);
+    padding: rem(16);
+    border-radius: rem(16);
+
+    &__qrcode {
+        border-radius: rem(10);
+    }
+
+    &__content {
+        padding: rem(24) rem(10);
+    }
+
+    &__title {
+        font-size: rem(22);
+        text-align: center;
+        color: var(--title-color);
+        margin-bottom: rem(16);
+    }
+
+    &__description {
+        font-size: rem(15);
+        text-align: center;
+        color: var(--paragraph-color);
+    }
+}

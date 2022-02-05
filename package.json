@@ -1,9 +1,9 @@
 {
-  "name": "",
+  "name": "qr-code-component-main",
   "version": "1.0.0",
-  "description": "",
+  "description": "![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)",
   "keywords": [],
-  "author": "",
+  "author": "Thiago Moreira (othiagomoreira)",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.14.8",
@@ -23,5 +23,18 @@
     "last 1 version",
     "IE 11",
     "> 1%"
-  ]
+  ],
+  "main": "gulpfile.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/othiagomoreira/qr-code-component-main.git"
+  },
+  "bugs": {
+    "url": "https://github.com/othiagomoreira/qr-code-component-main/issues"
+  },
+  "homepage": "https://github.com/othiagomoreira/qr-code-component-main#readme"
 }
