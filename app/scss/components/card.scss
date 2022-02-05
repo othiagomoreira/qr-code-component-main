@@ -11,7 +11,11 @@
     }
 
     &__content {
-        padding: rem(24) rem(10);
+        padding: rem(24) rem(4);
+
+        @include breakpoint-down(small) {
+            padding: rem(24) 0;
+        }
     }
 
     &__title {
@@ -19,11 +23,19 @@
         text-align: center;
         color: var(--title-color);
         margin-bottom: rem(16);
+
+        @include breakpoint-down(small) {
+            font-size: rem(16);
+        }
     }
 
     &__description {
         font-size: rem(15);
         text-align: center;
         color: var(--paragraph-color);
+
+        @include breakpoint-down(small) {
+            font-size: rem(14);
+        }
     }
 }
